@@ -220,10 +220,10 @@ print(int_conv1_weight_2)
 print(int_conv1_weight_3)
 print(int_conv1_bias)
 
-np.savetxt('conv1_weight_1.txt', int_conv1_weight_1, fmt='%1.2x',delimiter = " ")
-np.savetxt('conv1_weight_2.txt', int_conv1_weight_2, fmt='%1.2x',delimiter = " ")
-np.savetxt('conv1_weight_3.txt', int_conv1_weight_3, fmt='%1.2x',delimiter = " ")
-np.savetxt('conv1_bias.txt', int_conv1_bias, fmt='%1.2x',delimiter = " ")
+np.savetxt('conv1_weight_1.mem', int_conv1_weight_1, fmt='%1.2x',delimiter = " ")
+np.savetxt('conv1_weight_2.mem', int_conv1_weight_2, fmt='%1.2x',delimiter = " ")
+np.savetxt('conv1_weight_3.mem', int_conv1_weight_3, fmt='%1.2x',delimiter = " ")
+np.savetxt('conv1_bias.mem', int_conv1_bias, fmt='%1.2x',delimiter = " ")
 
 #################### Weight & Bias in HEX of Convolution Layer2 ####################
 
@@ -302,19 +302,19 @@ print(int_conv2_weight_33, '\n')
 
 print(int_conv2_bias)
 
-np.savetxt('conv2_weight_11.txt', int_conv2_weight_11, fmt='%1.2x',delimiter = " ")
-np.savetxt('conv2_weight_12.txt', int_conv2_weight_12, fmt='%1.2x',delimiter = " ")
-np.savetxt('conv2_weight_13.txt', int_conv2_weight_13, fmt='%1.2x',delimiter = " ")
+np.savetxt('conv2_weight_11.mem', int_conv2_weight_11, fmt='%1.2x',delimiter = " ")
+np.savetxt('conv2_weight_12.mem', int_conv2_weight_12, fmt='%1.2x',delimiter = " ")
+np.savetxt('conv2_weight_13.mem', int_conv2_weight_13, fmt='%1.2x',delimiter = " ")
 
-np.savetxt('conv2_weight_21.txt', int_conv2_weight_21, fmt='%1.2x',delimiter = " ")
-np.savetxt('conv2_weight_22.txt', int_conv2_weight_22, fmt='%1.2x',delimiter = " ")
-np.savetxt('conv2_weight_23.txt', int_conv2_weight_23, fmt='%1.2x',delimiter = " ")
+np.savetxt('conv2_weight_21.mem', int_conv2_weight_21, fmt='%1.2x',delimiter = " ")
+np.savetxt('conv2_weight_22.mem', int_conv2_weight_22, fmt='%1.2x',delimiter = " ")
+np.savetxt('conv2_weight_23.mem', int_conv2_weight_23, fmt='%1.2x',delimiter = " ")
 
-np.savetxt('conv2_weight_31.txt', int_conv2_weight_31, fmt='%1.2x',delimiter = " ")
-np.savetxt('conv2_weight_32.txt', int_conv2_weight_32, fmt='%1.2x',delimiter = " ")
-np.savetxt('conv2_weight_33.txt', int_conv2_weight_33, fmt='%1.2x',delimiter = " ")
+np.savetxt('conv2_weight_31.mem', int_conv2_weight_31, fmt='%1.2x',delimiter = " ")
+np.savetxt('conv2_weight_32.mem', int_conv2_weight_32, fmt='%1.2x',delimiter = " ")
+np.savetxt('conv2_weight_33.mem', int_conv2_weight_33, fmt='%1.2x',delimiter = " ")
 
-np.savetxt('conv2_bias.txt', int_conv2_bias, fmt='%1.2x',delimiter = " ")
+np.savetxt('conv2_bias.mem', int_conv2_bias, fmt='%1.2x',delimiter = " ")
 
 #################### Weight & Bias in HEX of Fully Connected Layer ####################
 
@@ -338,8 +338,8 @@ for i in range(10):
 print(int_fc_weight)
 print(int_fc_bias)
 
-np.savetxt('fc_weight.txt', int_fc_weight, fmt='%1.2x',delimiter = " ")
-np.savetxt('fc_bias.txt', int_fc_bias, fmt='%1.2x',delimiter = " ")
+np.savetxt('fc_weight.mem', int_fc_weight, fmt='%1.2x',delimiter = " ")
+np.savetxt('fc_bias.mem', int_fc_bias, fmt='%1.2x',delimiter = " ")
 
 #################### Output Data of each layer ####################
 print(np.shape(model.conv1_out_np))
