@@ -1,16 +1,3 @@
-/*------------------------------------------------------------------------
- *
- *  Copyright (c) 2021 by Bo Young Kang, All rights reserved.
- *
- *  File name  : conv2_buf.v
- *  Written by : Kang, Bo Young
- *  Written on : Oct 13, 2021
- *  Version    : 21.2
- *  Design     : 2nd Convolution Layer for CNN MNIST dataset
- *               Input Buffer
- *
- *------------------------------------------------------------------------*/
-
 /*-------------------------------------------------------------------
  *  Module: conv2_buf
  *------------------------------------------------------------------*/
