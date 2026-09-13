@@ -1,17 +1,4 @@
 
-/*------------------------------------------------------------------------
- *
- *  Copyright (c) 2021 by Bo Young Kang, All rights reserved.
- *
- *  File name  : maxpool_relu.v
- *  Written by : Kang, Bo Young
- *  Written on : Oct 13, 2021
- *  Version    : 21.2
- *  Design     : (1) MaxPooling for CNN
- *							 (2) Activation Function for CNN - ReLU Function
- *
- *------------------------------------------------------------------------*/
-
 /*-------------------------------------------------------------------
  *  Module: maxpool_relu
  *------------------------------------------------------------------*/
