@@ -1,14 +1,3 @@
-/*------------------------------------------------------------------------
- *
- *  Copyright (c) 2021 by Bo Young Kang, All rights reserved.
- *
- *  File name  : conv2_layer.v
- *  Written by : Kang, Bo Young
- *  Written on : Oct 11, 2021
- *  Version    : 21.2
- *  Design     : 2nd Convolution Layer for CNN MNIST dataset
- *
- *------------------------------------------------------------------------*/
 
 /*-------------------------------------------------------------------
  *  Module: conv2_layer
