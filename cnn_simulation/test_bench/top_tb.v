@@ -1,15 +1,3 @@
-/*------------------------------------------------------------------------
- *
- *  Copyright (c) 2021 by Bo Young Kang, All rights reserved.
- *
- *  File name  : top_tb.v
- *  Written by : Kang, Bo Young
- *  Written on : Oct 15, 2021
- *  Version    : 21.2
- *  Design     : Testbench for CNN MNIST dataset - single input image
- *
- *------------------------------------------------------------------------*/
-
 /*-------------------------------------------------------------------
  *  Module: top_tb
  *------------------------------------------------------------------*/
