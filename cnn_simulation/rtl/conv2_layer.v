@@ -413,7 +413,7 @@ conv2_calc_3 conv2_calc_3(
 );
 
  initial begin
-   $readmemh("../../../../rtl/module/conv2_bias.txt", bias);
+   $readmemh("conv2_bias.txt", bias);
  end
 
  assign exp_bias[0] = (bias[0][7] == 1) ? {4'b1111, bias[0]} : {4'b0000, bias[0]};
