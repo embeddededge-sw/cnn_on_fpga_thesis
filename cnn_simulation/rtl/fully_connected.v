@@ -1,14 +1,3 @@
-/*------------------------------------------------------------------------
- *
- *  Copyright (c) 2021 by Bo Young Kang, All rights reserved.
- *
- *  File name  : fully_connected.v
- *  Written by : Kang, Bo Young
- *  Written on : Oct 13, 2021
- *  Version    : 21.2
- *  Design     : Fully Connected Layer for CNN
- *
- *------------------------------------------------------------------------*/
 
 /*-------------------------------------------------------------------
  *  Module: fully_connected
